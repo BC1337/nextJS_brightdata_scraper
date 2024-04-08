@@ -1,0 +1,35 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build directories
+/.next/
+/out/
+
+# Ignore environment variables file
+.env
+
+# Ignore logs and generated files
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp/
+.pnp.js
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor-specific files
+/.vscode/
+/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ignore dependencies and lock files
+package-lock.json
+yarn.lock
